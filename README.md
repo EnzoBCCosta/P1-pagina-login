@@ -16,4 +16,9 @@
 * **JavaScript (ES6+)**
 
 ---
+## Original
+![Tela Original do Discord](./Login-original.png)
+
+## Clonado
+![Tela do Discord clonado](./Login-clonado.png)
 
