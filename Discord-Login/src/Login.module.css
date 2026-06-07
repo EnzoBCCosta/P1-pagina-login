@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'GG Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.login-screen {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at center, #2b1d41 0%, #161b63 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.discord-logo {
+  position: absolute;
+  top: 48px;
+  left: 48px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.discord-logo-img {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+}
+
+.login-card {
+  background-color: #313338;
+  padding: 32px;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 784px;
+  min-height: 408px;
+  position: relative;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #b5bac1;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.card-content {
+  display: flex;
+  gap: 32px;
+}
+
+.login-form-side {
+  flex: 1;
+}
+
+.login-form-side h2 {
+  color: #f2f3f5;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.login-form-side .subtitle {
+  color: #b5bac1;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  color: #b5bac1;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.input-group .required {
+  color: #f23f43;
+}
+
+.input-group input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  background-color: #1e1f22;
+  border: none;
+  border-radius: 3px;
+  color: #dbdee1;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.input-group input:focus {
+  box-shadow: 0 0 0 2px #5865f2;
+}
+
+.forgot-password {
+  display: inline-block;
+  color: #00a8fc;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.register-text {
+  color: #949ba4;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.register-text a {
+  color: #00a8fc;
+  text-decoration: none;
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  height: 44px;
+  background-color: #5865f2;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #4752c4;
+}
+
+.qrcode-side {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.qrcode-img {
+  background-color: white;
+  width: 176px;
+  height: 176px;
+  padding: 8px;
+  border-radius: 4px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.qrlogo-img {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: 65px;
+  left: 50%;
+  margin-left: -25px;
+}
+
+.qrcode-side h3 {
+  color: #f2f3f5;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.qrcode-side p {
+  color: #b5bac1;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.qrcode-side p strong {
+  color: #dbdee1;
+}
+
+.passkey-link {
+  color: #00a8fc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.passkey-link:hover {
+  text-decoration: underline;
+}
